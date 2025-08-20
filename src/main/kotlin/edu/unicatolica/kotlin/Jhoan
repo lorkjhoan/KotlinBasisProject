@@ -1,0 +1,13 @@
+package edu.unicatolica.kotlin
+
+fun main() {
+
+    var name: String = "jhoan"
+    var apellido: String = "rodriguez"
+    val edad = 24
+    val program = "ing sistemas"
+
+    val message = "hola $name $apellido, entraste al programa $program con la edad de $edad, FELICIDADES!!!"
+    println(message)
+
+}
