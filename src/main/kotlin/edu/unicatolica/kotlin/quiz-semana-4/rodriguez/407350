@@ -1,0 +1,23 @@
+package edu.unicatolica.kotlin
+
+fun primos (n : Int): Boolean{
+    if(n <= 1) return false
+    for (i in 2 until n){
+        if( n % i == 0 ){
+            return false
+        }
+    }
+    return true
+}
+fun isEven(n: Int): Boolean{
+    return n % 2 == 0
+}
+fun main (){
+    val numeros = arrayOf(1,2, 4, 7, 13, 9, 23)
+
+    println("numeros | primo | par")
+    println("----------------------)")
+    for (num in numeros){
+        println("$num    | ${primos(num)}   |  ${isEven(num)}")
+    }
+}
