@@ -1,0 +1,14 @@
+# Carpetas que genera Android Studio
+/build
+.gradle/
+.idea/
+
+# Archivos de configuración local
+local.properties
+*.iml
+
+# Archivos temporales
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
